@@ -1,0 +1,36 @@
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.deps.json
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.dll
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.pdb
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csprojAssemblyReference.cache
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfoInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfo.cs
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.dll
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.pdb
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+C:\Users\mka\source\repos\Project 927\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CopyComplete
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.deps.json
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csprojAssemblyReference.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfoInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfo.cs
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CoreCompileInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CopyComplete
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.deps.json
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.Domain.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csprojAssemblyReference.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfoInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.AssemblyInfo.cs
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CoreCompileInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.csproj.CopyComplete
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.Domain\obj\Debug\netcoreapp3.1\Project 927.Domain.pdb

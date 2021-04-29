@@ -1,0 +1,21 @@
+
+      <!-- <h2>Login</h2>
+      <form class="login-form" #myForm="ngForm" (ngSubmit)="submitLogin()">
+          <input type="text" [(ngModel)]="model.Email" placeholder="Email" name="email" />
+          <input type="password" [(ngModel)]="model.Password" placeholder="Passsword"  name="password" />
+          <button type="submit" class="btn btn-primary my-btn">Submit</button>
+          <p class="message">Not registered yet? <a [routerLink]="['/register']">Register</a></p>
+      </form> -->
+
+
+
+
+
+  <form class="box" action="index.html" method="post" #myForm="ngForm" (ngSubmit)="submitLogin()">
+    <h1>Login</h1>
+    <input type="text" [(ngModel)]="model.Email" placeholder="Email" name="email">
+    <input type="password" [(ngModel)]="model.Password" name="password" placeholder="Password">
+    <button type="submit" class="btn btn-primary my-btn" value="Login">Submit</button>
+  </form>
+  
+

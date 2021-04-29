@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\STEP\\Part_4_Exam\\Part_4_Exam\\AnimeDB.DataAccess\\AnimeDB.DataAccess.csproj": {}
+  },
+  "projects": {
+    "D:\\STEP\\Part_4_Exam\\Part_4_Exam\\AnimeDB.DataAccess\\AnimeDB.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\STEP\\Part_4_Exam\\Part_4_Exam\\AnimeDB.DataAccess\\AnimeDB.DataAccess.csproj",
+        "projectName": "AnimeDB.DataAccess",
+        "projectPath": "D:\\STEP\\Part_4_Exam\\Part_4_Exam\\AnimeDB.DataAccess\\AnimeDB.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\dsskripenuk\\.nuget\\packages\\",
+        "outputPath": "D:\\STEP\\Part_4_Exam\\Part_4_Exam\\AnimeDB.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dsskripenuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net30"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net30": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net30": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

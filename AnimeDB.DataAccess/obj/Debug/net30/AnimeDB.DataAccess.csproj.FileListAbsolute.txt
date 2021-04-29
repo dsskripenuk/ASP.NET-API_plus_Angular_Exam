@@ -1,0 +1,4 @@
+D:\STEP\Part_4_Exam\Part_4_Exam\AnimeDB.DataAccess\bin\Debug\net30\AnimeDB.DataAccess.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\AnimeDB.DataAccess\obj\Debug\net30\AnimeDB.DataAccess.csprojAssemblyReference.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\AnimeDB.DataAccess\obj\Debug\net30\AnimeDB.DataAccess.AssemblyInfoInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\AnimeDB.DataAccess\obj\Debug\net30\AnimeDB.DataAccess.AssemblyInfo.cs

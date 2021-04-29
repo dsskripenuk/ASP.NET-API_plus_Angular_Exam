@@ -1,0 +1,27 @@
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.deps.json
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.dll
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.pdb
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csprojAssemblyReference.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfoInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfo.cs
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csproj.CoreCompileInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.dll
+C:\Users\mka\source\repos\Project 927\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.deps.json
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csprojAssemblyReference.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfoInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfo.cs
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csproj.CoreCompileInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.deps.json
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csprojAssemblyReference.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfoInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfo.cs
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csproj.CoreCompileInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.pdb

@@ -1,0 +1,27 @@
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.deps.json
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csprojAssemblyReference.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfoInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfo.cs
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+C:\Users\mka\source\repos\Project 927\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.deps.json
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csprojAssemblyReference.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfoInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfo.cs
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csproj.CoreCompileInputs.cache
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.deps.json
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csprojAssemblyReference.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfoInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfo.cs
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csproj.CoreCompileInputs.cache
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.dll
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
