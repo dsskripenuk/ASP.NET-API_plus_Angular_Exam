@@ -18,7 +18,7 @@ const routes: Routes = [
     { path: 'admin-panel', pathMatch: 'full', canActivate: [AdminGuard], component: AdminPanelComponent },
     { path: 'user-profile', pathMatch: 'full', canActivate:[UserGuard], component: UserProfileComponent },
     { path: 'manager-panel', pathMatch: 'full', canActivate:[UserGuard], component: ManagerPanelComponent },
-    {path:'**', component: Page404Component }
+    { path: '**', component: Page404Component }
 ];
 
 @NgModule({

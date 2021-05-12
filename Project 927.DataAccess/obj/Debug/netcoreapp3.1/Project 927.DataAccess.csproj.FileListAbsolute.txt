@@ -19,7 +19,6 @@ D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DataAccess\obj\Debug\netcoreapp3.1\P
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.deps.json
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.dll
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\bin\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
-D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csprojAssemblyReference.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfoInputs.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.AssemblyInfo.cs
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csproj.CoreCompileInputs.cache

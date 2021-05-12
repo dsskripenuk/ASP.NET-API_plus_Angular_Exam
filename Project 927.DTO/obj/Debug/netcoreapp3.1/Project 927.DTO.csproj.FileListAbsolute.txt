@@ -19,9 +19,9 @@ D:\STEP\Part_4_Exam\Part_4_Exam\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.deps.json
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.dll
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\bin\Debug\netcoreapp3.1\Project 927.DTO.pdb
-D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csprojAssemblyReference.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfoInputs.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.AssemblyInfo.cs
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csproj.CoreCompileInputs.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.dll
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DTO\obj\Debug\netcoreapp3.1\Project 927.DTO.csprojAssemblyReference.cache

@@ -1,3 +1,52 @@
-<p>
-  admin-panel works!
-</p>
+  
+  <form #EventForm="ngForm" (ngSubmit)="onSubmit(EventForm)" class="box">
+    <h2>Add new anime: </h2>
+  
+    <div class="form-group">
+      <label for="exampleInputEmail1">Title</label>
+      <input type="text" [(ngModel)]="model.title" class="form-control" id="txtTitle" name="txtTitle"
+        aria-describedby="emailHelp" placeholder="Enter title">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputPassword1">Description</label>
+      <input type="text" [(ngModel)]="model.description" class="form-control" id="txtDescription" name="txtDescription"
+        placeholder="Enter description">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputEmail1">Image</label>
+      <input type="text" [(ngModel)]="model.image" class="form-control" id="txtDate" name="txtImage"
+        aria-describedby="emailHelp" placeholder="Enter image">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleInputEmail1">ReleaseDate</label>
+      <input type="text" [(ngModel)]="model.releaseDate" class="form-control" id="txtImg" name="txtreleaseDate"
+        aria-describedby="emailHelp" placeholder="Enter releaseDate">
+    </div>
+  
+    <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Submit</button>
+  </form>
+
+  <table class="table" >  
+    <tr ngclass="btn-primary">  
+      <th class="tbl2">Date Of Birth</th>  
+      <th class="tbl2">Email Id</th>  
+      <th class="tbl2">Gender</th>  
+      <th class="tbl2">Address</th>  
+      <th class="tbl2">Pine Code</th>  
+      <th class="tbl2">Edit</th>  
+      <th class="tbl2">Delete</th>  
+    </tr>  
+    <tr *ngFor="let employee of this.allAnimes">  
+      <td class="tbl2">{{employee.title}}</td>  
+      <td class="tbl2">  
+        <button type="button" class="btn btn-info"matTooltip="Click Edit Button"(click)="loadEmployeeToEdit(employee.EmpId)">Edit</button>  
+      </td>  
+      <td class="tbl2">  
+        <button type="button" class="btn btn-danger"matTooltip="Click Delete Button"(click)="deleteEmployee(employee.EmpId)">Delete</button>  
+      </td>  
+    </tr> 
+  
+  </table>  

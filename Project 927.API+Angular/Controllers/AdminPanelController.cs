@@ -87,7 +87,6 @@ namespace Project_927.API_Angular.Controllers
                 {
                     Code = 200,
                     Message = "Success!"
-
                 };
             }
             catch (Exception e)
@@ -114,7 +113,6 @@ namespace Project_927.API_Angular.Controllers
             anime.category.Name = model.category.Name;
             anime.Image = model.Image;
             anime.ReleaseDate = model.ReleaseDate;
-
 
             _context.SaveChanges();
 

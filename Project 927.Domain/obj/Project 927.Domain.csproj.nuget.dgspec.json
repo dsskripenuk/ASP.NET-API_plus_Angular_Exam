@@ -10,16 +10,12 @@
         "projectUniqueName": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.DataAccess\\Project 927.DataAccess.csproj",
         "projectName": "Project 927.DataAccess",
         "projectPath": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.DataAccess\\Project 927.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\dsskripenuk\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dsskr\\.nuget\\packages\\",
         "outputPath": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dsskripenuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dsskr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -76,16 +74,12 @@
         "projectUniqueName": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.Domain\\Project 927.Domain.csproj",
         "projectName": "Project 927.Domain",
         "projectPath": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.Domain\\Project 927.Domain.csproj",
-        "packagesPath": "C:\\Users\\dsskripenuk\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dsskr\\.nuget\\packages\\",
         "outputPath": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dsskripenuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dsskr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -96,6 +90,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.DataAccess\\Project 927.DataAccess.csproj": {
                 "projectPath": "D:\\STEP\\ExamPart_4-master\\ExamPart_4-master\\Project 927.DataAccess\\Project 927.DataAccess.csproj"
@@ -111,6 +106,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -136,14 +132,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
