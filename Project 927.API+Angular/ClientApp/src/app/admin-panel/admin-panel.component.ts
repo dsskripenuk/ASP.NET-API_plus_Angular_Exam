@@ -33,14 +33,14 @@ export class AdminPanelComponent implements OnInit {
         setTimeout(() => {
           this.spinner.hide();
           this.notifier.notify('error', 'Enter all fields!');
-        }, 5000);
+        }, 2000);
       } 
       else 
       {
         this.adminService.addAnime(this.model).subscribe((data: ApiResponse) => {
             if (data.code == 200) {
               this.spinner.hide();
-              this.notifier.notify('success', 'User added!');
+              this.notifier.notify('success', 'Anime added!');
             }
           },
           (error) => {
@@ -53,12 +53,39 @@ export class AdminPanelComponent implements OnInit {
       }
     }
 
-  ngOnInit() {
-    this.adminService.getAllAnimes().subscribe((res: ApiCollectionResponse)=>{
-      if(res.isSuccessful){
-        console.log(res.data)
-        this.allAnimes = res.data
-      }
-    })
+
+    deleteAnime(id: number) {
+        this.adminService.removeAnime(id).subscribe(
+        (data: ApiResponse) => {
+          if (data.code === 200) {
+            this.notifier.notify('success', 'Anime removed!');
+  
+            this.allAnimes = this.allAnimes.filter(t => t.id !== id);
+  
+          } else {
+            for (let i = 0; i < data.errors; i++) {
+              this.notifier.notify('error', data.errors[i]);
+            }
+          }
+        }
+      );
+    }
+
+  ngOnInit():  void {
+    this.spinner.show();
+
+    this.adminService.getAllAnimes().subscribe((AllAnimes: AnimeModel[]) => {
+      this.allAnimes = AllAnimes;
+      this.spinner.hide();
+    }
+    );
   }
+  //  {
+  //   this.adminService.getAllAnimes().subscribe((res: ApiCollectionResponse)=>{
+  //     if(res.isSuccessful){
+  //       console.log(res.data)
+  //       this.allAnimes = res.data
+  //     }
+  //   })
+  // }
 }

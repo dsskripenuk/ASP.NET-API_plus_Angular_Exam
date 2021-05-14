@@ -1,60 +1,427 @@
-th, td {
-    color: white;
+
+th, td{
+  color: white;
 }
 
-.box{
-  padding-left: 1%;
-    width: 60%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #292929;
-    text-align: left;
+.cover {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-color {
+  color: white;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #292929;
+}
+.brand {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin: 0 0 0 5%;
+  color: white;
+}
+
+.menu {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+.menu ul {
+  width: 100%;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;      
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex;
+}
+.menu ul a {
+  width: 20%;
+  height: inherit;
+  color: white;
+  display: inline-block;
+}
+.menu ul a:hover {
+  background-color: #222;
+  color: #fff;
+}
+#menuToggle {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+/*Início das configurações da Navigation com dispositivos < 768px*/
+@media screen and (max-width: 768px) {
+  .menu {
+      width: 100%;
+      height: auto;
   }
-  .box h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
+  .menu ul {
+      display: block;
+      max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+      -ms-transition: max-height 0.3s;
+      -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+      /*Para fazer com que o menu saia da esquerda, você deve trocar max-height por max-width*/
+      /*Para fazer com que o menu saia da direita, você deve trocar max-height por max-width e setar float: right*/
   }
-  .box h2{
-    color: white;
-    margin-bottom: 20px;
+  .menu ul a {
+      text-align: left;
+      width: 100%;
+      height: 50px;
+      padding: 10px 0px 10px 5%;
   }
-  .box input[type = "text"],.box input[type = "password"]{
-    border:0;
-    background: none;
-    display: block;
-    margin-bottom: 10px;
-    text-align: left;
-    border: 2px solid #757575;
-    width:  100%;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
+  .menu-icon {
+      width: 100px;
+      height: inherit;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 60px;
   }
-  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-    width: 95%;
-    border-color: white;
+  #menuToggle:checked ~ ul {
+      max-height: 350px;
   }
-  .box button[type = "submit"]{
-    border:0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: left;
-    border: 2px solid white;
-    padding: 14px 40px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
+  .menu-icon i {
+      font-size: 1.7em;
   }
-  .box button[type = "submit"]:hover{
-    background: white;
-    color: black;
-  }
-  
-  
+}
+
+.margin-for-div {
+  margin-bottom: 50px;
+}
+
+.center {
+  padding: 10px;
+  margin: auto; 
+  background-color: #292929;
+  color: white;
+  width: 60%;
+  border: none;
+  padding-bottom: 50px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+h5 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.section2 {
+  background-image: url("https://i.pinimg.com/originals/89/fb/2e/89fb2e4d227e8e8d0d392fbee62a767a.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.p1 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.div1 {
+ margin-left: 20%;
+ margin-right: 20%; 
+ margin-top: 100px;
+ border: none;
+}
+
+.div2 {
+  color: white;
+  background-color: #292929;
+}
+
+.section3 {
+  background-image: url("https://i.pinimg.com/originals/b8/e2/70/b8e270b7237f2f4c3a5905e6a3ca5f63.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+
+.image1 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/432.jpg?1547540527) no-repeat;
+}
+
+.image2 {
+  background: url(  https://static.anilibria.tv/upload/release/350x500/413.jpg?1547540586) no-repeat;
+}
+
+.image3 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/6831.jpg?1547540546) no-repeat;
+}
+
+.image4 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/5620.jpg?1547540578) no-repeat;
+}
+
+.image5 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/8325.jpg?1554544799) no-repeat;
+}
+
+.image6 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/8398.jpg?1562264658) no-repeat;
+}
+
+.image7 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/428.jpg?1547540570) no-repeat;
+}
+
+.image8 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/8395.jpg?1562604507) no-repeat;
+}
+
+.image9 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/7442.jpg?1547540525) no-repeat;
+}
+
+.image10 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/5255.jpg?1547540607) no-repeat;
+}
+
+.image11 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/8030.jpg?1554392739) no-repeat;
+}
+
+.image12 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/8335.jpg?1553536853) no-repeat;
+}
+
+.image13 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/2123.jpg?1547540528) no-repeat;
+}
+
+.image14 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/6808.jpg?1547540568) no-repeat;
+}
+
+.image15 {
+  background: url( https://static.anilibria.tv/upload/release/350x500/7440.jpg?1547540593) no-repeat;
+}
+
+.blog{
+position: relative;
+width: 22em;
+height: 30em;
+
+background-size: 22em 30em;
+box-shadow: 3px 3px 20px rgba(0,0,0,0.5);
+margin: auto;
+overflow: hidden;
+}
+.blog *{
+position: relative;
+z-index: 2;
+}
+.blog:hover .color-overlay{
+background:rgba(74, 100, 114, 0.8);
+}
+.blog:hover .info{
+bottom: -3em;
+opacity: 1;
+}
+.blog, .color-overlay{
+ border-radius: 0.7em;
+}
+.color-overlay{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+position: absolute;
+transition: 0.7s background;
+background: rgba(74, 100, 114, 0.3);
+z-index: 1;
+}
+
+.title-box{
+display: inline-block;
+width: 100%;
+text-align: center;
+margin-top: 2em;
+}
+.title-box hr{
+margin-top: -0.4em;
+margin-bottom: 1em;
+width: 5em;
+height: 0.25em;
+box-sizing: content-box;
+border: none;
+background: #D0BC57;
+}
+h3{
+ display: inline-block;
+ font-weight: 500;
+ letter-spacing: 2px;
+ font-size: 1.4em;
+ 
+ text-align: center;
+}
+.intro{
+  width: 170px;
+margin: 0 auto;
+color: black;
+font-family: 'Droid Serif', serif;
+font-size: 20px;
+font-style: italic;
+line-height: 18px;
+}
+
+.info{
+font-family: 'Droid Serif', serif;
+font-size: 1.2em;
+color: #ddd;
+line-height: 1.1em;
+padding: 0 2em;
+
+position: relative;
+bottom: -4em;
+opacity: 0;
+background: transparent;
+transition: opacity 0.3s, bottom 0.3s;
+text-align: center;
+}
+
+.footer{
+display: inline-block;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 10em;
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
+border-radius:  0 0 0.7em 0.7em;
+}
+
+.footer > .icon-holder{
+position: absolute;
+bottom: 0;
+height: 3em;
+width: 100%;
+display: inline-block;
+font-size: 1.2em;
+padding: 0 2em;
+
+}
+
+.icon-holder i{
+
+color: #D0BC57;
+}
+
+.icon-holder span, h3{
+color: black;
+font-weight: bolder;
+}
+
+.space{
+display: inline-block;
+width: 0.6em;
+height: 1em;
+}
+
+.cover3 {
+  width: 100%;
+  background-image: url(https://w.wallhaven.cc/full/r2/wallhaven-r2ox2j.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.icons {
+  margin: 15px;
+}
+
+.section5 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.div6 {
+  padding-bottom: 250px;
+}
+
+.section5 hr {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+  border: none;
+}
+
+.img1 {
+  width: 64px;
+  height: 64px;
+  border-radius: 15px;
+}
+
+.div3 {
+  margin-left: 5%;
+  margin-right: 5%; 
+  margin-top: 100px;
+  border: none;
+}
+
+.cover2 {
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.div4 {
+  margin-left: 10px;
+  margin-right: 10px;
+}

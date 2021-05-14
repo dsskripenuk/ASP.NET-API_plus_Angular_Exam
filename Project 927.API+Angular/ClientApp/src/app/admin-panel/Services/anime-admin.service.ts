@@ -17,7 +17,7 @@ export class AnimeManagerService {
   }
 
   removeAnime(id: number) {
-    return this.http.post(this.baseUrl + '/RemoveAnime/' + id, id, { headers: { 'Content-Type': 'application/json' } });
+    return this.http.get(this.baseUrl + `/RemoveAnime/${id}`, { headers: { 'Content-Type': 'application/json' } });
   }
 
   addAnime(model: AnimeModel): Observable<ApiResponse> {

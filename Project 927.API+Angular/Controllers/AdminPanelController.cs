@@ -72,7 +72,7 @@ namespace Project_927.API_Angular.Controllers
             };
         }
 
-        [HttpPost("RemoveAnime/{Id}")]
+        [HttpGet("RemoveAnime/{Id}")]
         public ResultDTO RemoveAnime([FromRoute] int id)
         {
             try

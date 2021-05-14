@@ -17,10 +17,10 @@ export class AnimeModel {
 
     isValid(): boolean {
         if (
-            this.title == "" ||
-            this.image == "" ||
-            this.description == "" ||
-            this.releaseDate == ""
+            this.title == null ||
+            this.image == null ||
+            this.description == null ||
+            this.releaseDate == null
             ) {
             return false;
         } else {
