@@ -368,7 +368,7 @@ h3{
 
 .cover3 {
     width: 100%;
-    background-image: url('https://w.wallhaven.cc/full/r2/wallhaven-r2ox2j.png');
+    background-image: url(https://w.wallhaven.cc/full/r2/wallhaven-r2ox2j.png);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;

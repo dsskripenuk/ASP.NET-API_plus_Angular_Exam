@@ -17,6 +17,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TokenInterceptor } from './Services/interseptor';
 import { ManagerPanelComponent } from './manager-panel/manager-panel.component';
 import { Page404Component } from './Page404/Page404.component';
+import { AnimePanelComponent } from './User-panels/Anime-panel/anime-panel.component';
+import { NewsPanelComponent } from './User-panels/News-panel/news-panel.component';
+import { FixedPanelComponent } from './FixedPanel/fixed-panel.component';
 
 @NgModule({
   declarations: [				
@@ -28,7 +31,10 @@ import { Page404Component } from './Page404/Page404.component';
     AdminPanelComponent,
     UserProfileComponent,
       ManagerPanelComponent,
-      Page404Component
+      Page404Component,
+      AnimePanelComponent,
+      NewsPanelComponent,
+      FixedPanelComponent
    ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

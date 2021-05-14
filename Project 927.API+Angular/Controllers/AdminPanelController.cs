@@ -28,7 +28,7 @@ namespace Project_927.API_Angular.Controllers
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
-        public IQueryable<AnimeDTO> GetAnimes()
+        public IEnumerable<AnimeDTO> GetAnimes()
         {
             var data = _context.Animes.Select(t => new AnimeDTO
             {
@@ -60,8 +60,7 @@ namespace Project_927.API_Angular.Controllers
                 Title = model.Title,
                 Description = model.Description,
                 Image = model.Image,
-                ReleaseDate = model.ReleaseDate,
-                CategoryId = model.CategoryId
+                ReleaseDate = model.ReleaseDate
             });
 
             _context.SaveChanges();
@@ -110,7 +109,6 @@ namespace Project_927.API_Angular.Controllers
 
             anime.Title = model.Title;
             anime.Description = model.Description;
-            anime.category.Name = model.category.Name;
             anime.Image = model.Image;
             anime.ReleaseDate = model.ReleaseDate;
 

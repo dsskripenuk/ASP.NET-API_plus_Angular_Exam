@@ -25,6 +25,14 @@
             <a class="nav-link text-light" [routerLink]="['/user-profile']">Profile</a>
           </li>
 
+          <li *ngIf="isLoggedIn === true && isAdmin == false" class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" [routerLink]="['/Anime-page']">Animes</a>
+          </li>
+
+          <li *ngIf="isLoggedIn === true && isAdmin == false" class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-light" [routerLink]="['/News-page']">News</a>
+          </li>
+
           <li *ngIf="isLoggedIn === false" class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-light" [routerLink]="['/register']">Register</a>
           </li>

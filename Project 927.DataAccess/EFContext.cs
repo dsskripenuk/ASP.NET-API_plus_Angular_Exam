@@ -13,7 +13,6 @@ namespace Project_927.DataAccess
         public EFContext(DbContextOptions<EFContext> options) : base(options) {  }
 
         public DbSet<Anime> Animes { get; set; }
-        public DbSet<Category> Categories { get; set; }
         public DbSet<Episodes> Episodes { get; set; }
         public DbSet<Screenshots> Screenshots { get; set; }
         public DbSet<News> News { get; set; }

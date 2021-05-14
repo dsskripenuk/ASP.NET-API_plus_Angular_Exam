@@ -49,11 +49,6 @@ export class AdminPanelComponent implements OnInit {
           }
         );
   
-        // setTimeout(() => {
-        //   /** spinner ends after 5 seconds */
-        //   this.spinner.hide();
-        //   this.notifier.notify('success', 'Success add new event!');
-        // }, 5000);
         form.resetForm();
       }
     }
@@ -66,5 +61,4 @@ export class AdminPanelComponent implements OnInit {
       }
     })
   }
-
 }

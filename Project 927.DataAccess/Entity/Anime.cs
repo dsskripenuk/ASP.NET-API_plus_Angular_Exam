@@ -29,8 +29,5 @@ namespace Project_927.API_Angular.Entity
         [Required]
         public string ReleaseDate { get; set; }
 
-        [Required]
-        public int CategoryId { get; set; }
-        public Category category { get; set; }
     }
 }

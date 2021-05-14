@@ -3,6 +3,19 @@
 /* Provide sufficient contrast against white background */
 
 @import "~angular-notifier/styles.css";
+html{
+  --text-color: white;
+  --bg-color: #292929;
+  --hover-color: #222;
+  --cb-color: rgba(231, 229, 229, 0.295);
+}
+
+html[data-theme='light'] {
+  --text-color: #292929;
+  --bg-color: white;
+  --hover-color: gray;
+  --cb-color: #DDDDDD;
+}
 
 a {
   color: #0366d6;
@@ -21,4 +34,20 @@ code {
 body{
   background-color: #292929;
   color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0px;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

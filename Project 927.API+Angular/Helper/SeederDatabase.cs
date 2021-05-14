@@ -49,12 +49,14 @@ namespace Project_927.API_Angular.Helper
 
             }
 
+
             string email = "admin@gmail.com";
             var admin = new User
             {
                 Email = email,
                 UserName = email,
                 Address = "Rivne",
+                PhoneNumber = "0982286431",
                 Age = 15,
                 FullName = "Denys"
             };

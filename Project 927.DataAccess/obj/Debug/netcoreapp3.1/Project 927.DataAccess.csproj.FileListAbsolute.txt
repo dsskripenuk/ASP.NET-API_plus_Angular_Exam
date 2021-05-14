@@ -24,3 +24,4 @@ D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\net
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csproj.CoreCompileInputs.cache
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.dll
 D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.pdb
+D:\STEP\ExamPart_4-master\ExamPart_4-master\Project 927.DataAccess\obj\Debug\netcoreapp3.1\Project 927.DataAccess.csprojAssemblyReference.cache

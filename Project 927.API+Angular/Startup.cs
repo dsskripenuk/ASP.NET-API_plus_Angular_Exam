@@ -31,19 +31,21 @@ namespace Project_927.API_Angular
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-
             services.AddDbContext<EFContext>(
                 opt => opt.UseSqlServer(
                     Configuration["ConnectionString"],
                     b => b.MigrationsAssembly("Project 927.API+Angular")
                 ));
 
-
-
             services.AddIdentity<User, IdentityRole>()
                 .AddEntityFrameworkStores<EFContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddTransient<IJWTTokenService, JWTTokenService>();
+            
+            string jwtTokenSecretKey = Configuration["SecretPhrase"];
+            var signInKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtTokenSecretKey));
+ 
             services.Configure<IdentityOptions>(opt =>
             {
                 opt.Password.RequiredLength = 6;
@@ -52,11 +54,6 @@ namespace Project_927.API_Angular
                 opt.Password.RequireUppercase = true;
                 opt.Password.RequireNonAlphanumeric = true;
             });
-
-            services.AddTransient<IJWTTokenService, JWTTokenService>();
-
-            string jwtTokenSecretKey = Configuration["SecretPhrase"];
-            var signInKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtTokenSecretKey));
 
             services.AddAuthentication(options =>
             {
@@ -77,7 +74,6 @@ namespace Project_927.API_Angular
                     ClockSkew = TimeSpan.Zero
                 };
             });
-
 
             services.AddControllersWithViews();
             services.AddSpaStaticFiles(configuration =>
@@ -105,11 +101,9 @@ namespace Project_927.API_Angular
                 app.UseSpaStaticFiles();
             }
 
+            app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
-            app.UseRouting();
-
 
             app.UseEndpoints(endpoints =>
             {

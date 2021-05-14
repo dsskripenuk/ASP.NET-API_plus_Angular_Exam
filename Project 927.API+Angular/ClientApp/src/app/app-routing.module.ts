@@ -9,6 +9,8 @@ import { UserGuard } from './Guards/user.guard';
 import { HomeComponent } from './home/home.component';
 import { ManagerPanelComponent } from './manager-panel/manager-panel.component';
 import { Page404Component } from './Page404/Page404.component';
+import { AnimePanelComponent } from './User-panels/Anime-panel/anime-panel.component';
+import { NewsPanelComponent } from './User-panels/News-panel/news-panel.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
@@ -17,6 +19,8 @@ const routes: Routes = [
     { path: 'register', pathMatch: 'full', canActivate:[NotLoggedInGuard], component: RegisterComponent },
     { path: 'admin-panel', pathMatch: 'full', canActivate: [AdminGuard], component: AdminPanelComponent },
     { path: 'user-profile', pathMatch: 'full', canActivate:[UserGuard], component: UserProfileComponent },
+    { path: 'Anime-page', pathMatch: 'full', canActivate:[UserGuard], component: AnimePanelComponent },
+    { path: 'News-page', pathMatch: 'full', canActivate:[UserGuard], component: NewsPanelComponent },
     { path: 'manager-panel', pathMatch: 'full', canActivate:[UserGuard], component: ManagerPanelComponent },
     { path: '**', component: Page404Component }
 ];
